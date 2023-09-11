@@ -1,0 +1,59 @@
+.main-home-container{
+    color:white;
+}
+
+.first{
+    min-height:30vh;
+    width:100%;
+}
+
+.first img{
+    width:100%;
+    object-fit: cover;
+    height:100vh;
+}
+
+.first h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 7rem;
+    line-height: 4.5rem;
+    letter-spacing: -3px;
+}
+
+.first button{
+    background-color: rgb(11, 196, 67);
+    padding: 9px 30px 9px 30px;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap:4rem;
+    height:70vh;
+}
+
+.second img {
+    border-radius: 30px;
+    top:50%;
+}
+
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap:4rem;
+    height:70vh;
+}
+
+.third img {
+    border-radius: 30px;
+    top:50%;
+}

@@ -1,0 +1,17 @@
+.third-container h1{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 6rem;
+    margin-bottom:2rem;
+    margin-left: 5rem;
+    text-align: left;
+}
+
+.third-container .your-events-title{
+    border-bottom: 1px solid rgb(11, 196, 67);
+}
+
+.third-container{
+    padding-bottom: 2rem;
+    border-bottom: 0.3px dashed rgb(26,26,26);
+}

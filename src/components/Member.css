@@ -1,0 +1,29 @@
+.member-box-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(46, 46, 46);
+    /* padding:5px; */
+    padding-bottom: 10px;
+    gap:.6rem;
+}
+
+.member-box-container img{
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+}
+
+.content-member{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.content-member p {
+    font-size: 13px;
+    color:rgb(109, 109, 109);
+    font-style: italic;
+}

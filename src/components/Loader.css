@@ -1,0 +1,32 @@
+.spinner {
+    /* Spinner size and color */
+    width: 1.5rem;
+    height: 1.5rem;
+    border-top-color: rgb(11, 196, 67);
+    border-left-color: rgb(11, 196, 67);
+    margin: auto;
+    position: absolute;
+    left:50%;
+  
+    /* Additional spinner styles */
+    animation: spinner 400ms linear infinite;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;  
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  /* Animation styles */
+  @keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .spinner-blue {
+    border-top-color: #09d;
+    border-left-color: #09d;
+  }

@@ -1,0 +1,79 @@
+.receive-box{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    gap:.6rem;
+    clear: both;
+}
+
+.receive-box img{
+    height:32px;
+    width:32px;
+    border-radius: 60px;
+}
+
+.receive-box .texts{
+    display:flex;
+    color:white;
+    flex-direction: column;
+}
+
+.texts .msg{
+    background-color: rgb(26,26,26);
+    padding:7px;
+    color:white;
+    font-size: 14px;
+    border-radius: 0 5px 5px 5px;
+}
+
+.message-box{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    margin-bottom: .1rem;
+    gap:.6rem;
+    float:right;
+    clear:both;
+}
+
+.message-box img{
+    height:32px;
+    width:32px;
+    border-radius: 60px;
+}
+
+.message-box .texts{
+    display:flex;
+    color:white;
+    flex-direction: column;
+    
+}
+
+.message-box .texts .msg{
+    background-color: rgb(23, 153, 66);
+    padding:7px;
+    color:white;
+    font-size: 14px;
+    border-radius: 5px 0 5px 5px;
+}
+
+.message-box .texts .you-label{
+    text-align: left;
+}
+
+.user-label,.you-label{
+    color:rgb(148, 148, 148);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.phone-label{
+    font-size: 10px;
+}
+
+.msg-time{
+    margin-top: .2rem;
+    color:rgb(194, 194, 194);
+    font-size: 11px;
+}

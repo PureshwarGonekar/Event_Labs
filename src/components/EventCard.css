@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid #505050;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(216, 216, 216, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    background-color: black;
+    cursor: pointer;
+    font-family: 'Poppins';
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    margin-bottom: .3rem;
+  }
+  
+  .card-description {
+    font-size: 0.9rem;
+    margin: 0;
+    color:rgb(94, 94, 94);
+    text-align: center;
+  }

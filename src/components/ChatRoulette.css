@@ -1,0 +1,96 @@
+.main-chat-page{
+    display: flex;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    justify-content: space-between;
+}
+
+.roulette{
+    width:55%;
+}
+
+.roulette-header {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 10px;
+    background-color: rgb(26,26,26);
+}
+.roulette-header h1{
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.roulette-header p{
+    color:rgb(104, 104, 104);
+    font-size: 13px;
+}
+
+.your-groups-container{
+    width:25%;
+}
+
+.right-most-container{
+    width:20%;
+}
+
+.input-bar {
+    display: flex;
+    align-items: center;
+    padding-top:10px;
+}
+
+.input-bar button{
+    position:absolute;
+    font-size: 1.3rem;
+    left:74%;
+}
+
+.input-bar input {
+    width:90%;
+    padding:15px;
+    padding-right:70px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    margin: auto;
+    outline:none;
+    color:white;
+}
+
+.chat-container {
+    overflow-y: auto;
+    flex :1;
+    height:70%;
+    padding:10px;
+}
+
+
+/* Hide the default scrollbar */
+.chat-container {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: transparent transparent; /* Firefox */
+  
+    /* Hide Chrome scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background-color: transparent;
+    }
+  }
+  
+  /* Style the custom scrollbar */
+  .chat-container::-webkit-scrollbar {
+    width: 1px; /* Width of the scrollbar */
+  }
+  
+  .chat-container::-webkit-scrollbar-thumb {
+    background-color: #ffffff; /* Color of the thumb */
+    border-radius: 3px; /* Rounded corners of the thumb */
+  }
+  
+  .chat-container::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa; /* Hover color of the thumb */
+  }
+  
